@@ -28,26 +28,32 @@ function ContactSection() {
         <div className="lg:w-3/4 ">
           <div className="flex flex-col gap-5 lg:gap-9">
             <p className="text-sm md:text-xl flex items-center gap-3">
-              <MdAlternateEmail
-                className="bg-[#80c2af] p-2 rounded-full hover:bg-[#5c946e] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                size={36}
-              />
+              <Link target='_blank' href='mailto:david.riegler@intdev.ch'>
+                <MdAlternateEmail
+                  className="bg-[#80c2af] p-2 rounded-full hover:bg-[#5c946e] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                  size={36}
+                />
+              </Link>
               <span>{personalData.email}</span>
             </p>
             <p className="text-sm md:text-xl flex items-center gap-3">
-              <IoMdCall
-                className="bg-[#80c2af] p-2 rounded-full hover:bg-[#5c946e] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                size={36}
-              />
+              <Link target='_blank' href='tel:0796040519'>
+                <IoMdCall
+                  className="bg-[#80c2af] p-2 rounded-full hover:bg-[#5c946e] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                  size={36}
+                />
+              </Link>
               <span>
                 {personalData.phone}
               </span>
             </p>
             <p className="text-sm md:text-xl flex items-center gap-3">
-              <CiLocationOn
-                className="bg-[#80c2af] p-2 rounded-full hover:bg-[#5c946e] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                size={36}
-              />
+              <Link target='_blank' href="https://www.google.ch/maps/place/47%C2%B010'22.7%22N+8%C2%B058'22.9%22E/@47.1730923,8.9729483,151m/data=!3m1!1e3!4m4!3m3!8m2!3d47.172976!4d8.973022?entry=ttu&g_ep=EgoyMDI0MDgyMy4wIKXMDSoASAFQAw%3D%3D">
+                <CiLocationOn
+                  className="bg-[#80c2af] p-2 rounded-full hover:bg-[#5c946e] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                  size={36}
+                />
+              </Link>
               <span>
                 {personalData.address}
               </span>
