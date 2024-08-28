@@ -18,6 +18,5 @@ export const skillsData = [
   'C#',
   'Java',
   'Canva',
-  'Lightroom',
-  'Premiere Pro'
+  'Lightroom'
 ]
