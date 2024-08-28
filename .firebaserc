@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "portfolio-anakonda06",
+    "portfolio": "portfolio-anakonda06"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
