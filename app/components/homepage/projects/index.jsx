@@ -4,7 +4,7 @@ import ProjectCard from './project-card';
 const Projects = () => {
 
   return (
-    <div id="experience" className="relative z-50 border-t my-12 lg:my-24 border-[#5C946E]">
+    <div id="projects" className="relative z-50 border-t my-12 lg:my-24 border-[#5C946E]">
       <div className="flex justify-center -translate-y-[1px]">
         <div className="w-3/4">
           <div className="h-[1px] bg-gradient-to-r from-transparent via-[#30c5ff] to-transparent w-full" />
