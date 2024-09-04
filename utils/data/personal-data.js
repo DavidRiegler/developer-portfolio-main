@@ -2,7 +2,7 @@ export const personalData = {
   name: "David Riegler",
   profile: '/Portfolio-Bild.jpg',
   designation: "Software Developer",
-  description: "My name is David Riegler. I am an enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
+  description: "My name is David Riegler. I am an enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. My core skill is based on TypeScript. I am available for any kind of job opportunity that suits my skills and interests.",
   email: 'david.riegler@intdev.ch',
   phone: '+41796040519',
   address: 'Muehlestrasse 3q, Reichenburg, Switzerland - 8864',
