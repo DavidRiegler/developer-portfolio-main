@@ -2,13 +2,13 @@ export const experiences = [
   {
     id: 1,
     title: 'Software Engineer Apprentice',
-    company: "Zuehlke Engineering AG",
+    company: "Zuehlke Engineering AG (Schlieren, Switzerland)",
     duration: "(Apr 2023 - May 2023)"
   },
   {
     id: 2,
     title: "Software Engineer Apprentice Abroad",
-    company: "Cork",
+    company: "Tisilabs Ltd. (Cork, Ireland)",
     duration: "(Sep 2024 - Okt 2024)"
   },
   {
