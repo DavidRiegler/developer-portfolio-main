@@ -8,7 +8,7 @@ export const experiences = [
   {
     id: 2,
     title: "Software Engineer Apprentice Abroad",
-    company: "Tisilabs Ltd. (Cork, Ireland)",
+    company: "M5 Sound Studio & Tisilabs Ltd. (Cork, Ireland)",
     duration: "(Sep 2024 - Okt 2024)"
   },
   {
