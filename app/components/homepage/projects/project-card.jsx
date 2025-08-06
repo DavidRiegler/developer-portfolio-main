@@ -63,6 +63,26 @@ function ProjectCard({ project }) {
           </div>
           <div><span className="text-gray-400">{`};`}</span></div>
         </code>
+        <div className="mt-6 flex justify-between items-center">
+          <a
+            href="https://github.com/DavidRiegler?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-[#1a202c] text-[#30c5ff] px-4 py-2 rounded-md text-xs font-semibold border border-[#30c5ff] hover:bg-[#30c5ff] hover:text-white transition"
+          >
+            More Projects
+          </a>
+          {project.demo && (
+            <a
+              href={project.demo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-gradient-to-r from-[#30c5ff] to-[#80c2af] text-[#2A2D34] px-4 py-2 rounded-md text-xs font-semibold hover:from-[#5c946e] hover:to-[#30c5ff] transition"
+            >
+              View Project
+            </a>
+          )}
+        </div>
       </div>
     </div>
   );
