@@ -16,9 +16,9 @@ export const projectsData = [
     },
     {
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app using NextJS, TailwindCSS, Google Maps and React Slick. I developed the API using REST API to handle data requests from the frontend.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL"],
+        name: 'Meetup Planner',
+        description: 'I have designed and developed a full-stack web app using NextJS, CSS and Firebase. I developed the API using REST API to handle data requests from the frontend. Firebase Firestore was used for the database. As a full-stack developer, I implemented user authentication using Firebase Authentication. The app allows users to create, join, and manage meetups, providing a platform for event organization and community engagement.',
+        tools: ['NextJS', 'CSS', "Firebase", "Firestore", "TypeScript", "REST API"],
         role: 'Full Stack Developer',
         code: '',
         demo: '',

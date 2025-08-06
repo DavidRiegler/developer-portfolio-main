@@ -131,6 +131,20 @@ function HeroSection() {
                 <span className="text-amber-300">Typescript</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Tailwind</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Firebase</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Java</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Vercel</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Git</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Figma</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Canva</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">C#</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>
